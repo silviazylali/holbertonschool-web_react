@@ -1,0 +1,19 @@
+.App-header {
+  overflow: hidden;
+}
+
+.App-header>img,
+.App-header>h1 {
+  float: left;
+}
+
+.App-body {
+  height: 450px;
+  border-top: 2px solid #E1003C;
+  border-bottom: 2px solid #E1003C;
+}
+
+.App-footer {
+  text-align: center;
+  font-style: italic;
+}
