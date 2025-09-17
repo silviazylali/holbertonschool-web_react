@@ -1,5 +1,9 @@
 import './App.css'
 import holbertonLogo from './assets/holberton-logo.jpg'
+import myDate from './utils'
+
+
+
 function App() {
   return (
     <>
@@ -11,7 +15,7 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
       <div className='App-footer'>
-        <p>Copyright the current year e.g: 2025 - holberton School</p>
+        <p>Copyright {myDate.getCurrentYear()} - <span dangerouslySetInnerHTML={{ __html: myDate.getFooterCopy(true) }} /></p>
       </div>
     </>
   )
