@@ -1,5 +1,6 @@
 import './Notifications.css'
 import { getLatestNotification } from './utils'
+import closeIcon from './assets/close-button.png'
 
 export default function Notifications() {
 
@@ -7,7 +8,7 @@ export default function Notifications() {
     console.log("Close button has been clicked");
   }
 
-  
+
   return (
     <div className="Notifications-items">
       <p>Here is the list of notifications</p>
