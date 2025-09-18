@@ -11,14 +11,14 @@ function App() {
       </div>
       <div className="App-header">
         <img src={holbertonLogo} alt='holberton logo' />
-        <h1 style={{ color: '#E1003C' }} >School Dashboard</h1>
+        <h1 style={{ color: '#e1003C' }} >School dashboard</h1>
       </div>
       <div className='App-body'>
         <p>Login to access the full dashboard</p>
-        <label htmlFor="email">email</label>
+        <label htmlFor="email"></label>
         <input type="email" id="email"></input>
 
-        <label htmlFor="password">password</label>
+        <label htmlFor="password"></label>
         <input type="password" id="password"></input>
 
         <button type="submit">OK</button>
