@@ -23,4 +23,5 @@ test("renders 'School Dashboard' h1 element", () => {
     // Button with text "Ok"
     const button = screen.getByRole("button", { name: /ok/i });
     expect(button).toBeInTheDocument();
+    const getCurrentYear = screen.get
 });
