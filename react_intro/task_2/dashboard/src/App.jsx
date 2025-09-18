@@ -11,21 +11,22 @@ function App() {
       </div>
       <div className="App-header">
         <img src={holbertonLogo} alt='holberton logo' />
-        <h1 style={{ color: '#E1003C' }} >School dashboard</h1>
+        <h1 style={{ color: '#E1003C' }} >School Dashboard</h1>
       </div>
       <div className='App-body'>
         <p>Login to access the full dashboard</p>
         <label htmlFor="email">email</label>
-        <input type='email' id='email'></input>
+        <input type="email" id="email"></input>
 
-        <label htmlFor='password'></label>
-        <input type='password' id='password'></input>
-        <button type='submit'>OK</button>
+        <label htmlFor="password">password</label>
+        <input type="password" id="password"></input>
+
+        <button type="submit">OK</button>
       </div>
       <div className='App-footer'>
-        <p>Copyright {getCurrentYear()} - {getFooterCopy(true)}</p>
+        <p>Copyright {getCurrentYear()} - {getFooterCopy()}</p>
       </div>
     </>
   )
 }
-export default App
+export default App;
