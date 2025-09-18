@@ -1,15 +1,13 @@
 import React from "react";
 
-function Notifications() {
+export default function Notifications() {
     const handleClick = () => {
         console.log("Close button has been clicked");
     };
 
     return (
         <div className="Notifications">
-            <button aria-label="Close" onClick={handleClick}>
-                Close
-            </button>
+            <button aria-label="Close" onClick={handleClick}>Close</button>
             <p>Here is the list of notifications</p>
             <ul>
                 <li>New course available</li>
@@ -19,5 +17,3 @@ function Notifications() {
         </div>
     );
 }
-
-export default Notifications;
